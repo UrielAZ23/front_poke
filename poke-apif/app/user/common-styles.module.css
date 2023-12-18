@@ -1,0 +1,139 @@
+/* common-styles.module.css */
+
+.backgroundContainer {
+  /* Establece la imagen de fondo y otros estilos según sea necesario */
+  background-image: url('https://media3.giphy.com/media/aOiiut0WA77nYsDddq/giphy.gif');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff; 
+}
+
+/* Estilos para el contenedor principal */
+.pageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Estilos para el contenedor del formulario */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(244, 244, 244, 0.8);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.customHeader {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.inputField {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Estilos para el botón común */
+.custom-button {
+  width: 100%;
+  padding: 12px; /* Aumenta el tamaño del botón */
+  cursor: pointer;
+  margin-top: 15px; /* Aumenta el espacio entre el botón y las cajas de entrada */
+}
+
+.custom-button:hover {
+  background-color: #2980b9;
+}
+
+/* Estilos específicos para el botón de login */
+.custom-button.login {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+/* Estilos específicos para el botón de registro */
+.custom-button.register {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+}
+
+.custom-button.register:hover {
+  background-color: #2980b9;
+}
+
+/* Estilos específicos para el botón de recuperación */
+.custom-button.recovery {
+  width: 100%;
+  padding: 10px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+}
+
+.registerButton {
+  width: 100%;
+  padding: 10px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+}
+
+.registerButton:hover {
+  background-color: #2980b9;
+}
+
+.recoveryButton:hover {
+  background-color: #2980b9;
+}
+
+.customButton:hover {
+  background-color: #2980b9;
+}
+
+.forget {
+  margin-top: 5px;
+  color: #333;
+}
+
+.forget a {
+  color: #4caf50;
+  font-weight: 600;
+  text-decoration: none;
+  margin-left: 5px;
+}
